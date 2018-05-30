@@ -1,0 +1,39 @@
+header {
+  display: flex;
+  justify-content: flex-end;
+  width: auto;
+  height: 60px;
+  background: #49A8FA;
+
+
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+  margin:0;
+  padding:0;
+}
+
+header ul ul {
+  display: block;
+  background: #346998;
+  position: absolute;
+  top: 60px;
+  transform: translateX(60%);
+  opacity: 0;
+}
+
+header ul li:hover ul {
+  opacity: 1;
+  transform: translateX(0%);
+}
+
+header ul li a{
+    display: block;
+    padding:20px 20px;
+    color: white;
+    text-decoration: none;
+
+
+}
