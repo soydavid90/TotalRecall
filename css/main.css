@@ -1,0 +1,74 @@
+body {
+  /*BODY --> afecta a todo el documento*/
+  background: #000000;
+  /*fondo NEGRO*/
+  color: #fff;
+  /*color de las letras BLANCAS*/
+  font-size: 16px;
+
+  font-family: Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif;
+  /*asignamos fuentes de letras a todo el cuerpo*/
+}
+
+
+
+header {
+  /*display: flex;
+  justify-content: flex-end;
+  width: auto;
+  /*anchura adaptable*/
+  /*height: 60px;
+  /*altura de 60px*/
+  background: #49A8FA;
+
+  position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+  width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+	top: 0; /* Posicionamos la cabecera pegada arriba */
+}
+
+header ul {
+  display: flex;
+  /*los elementos serán flexibles*/
+  list-style: none;
+  /*eliminamos las "bolitas" negras*/
+  margin:0;
+  padding:0;
+}
+
+header ul ul {
+  display: block;
+  background: #346998;
+  position: absolute;
+  top: 60px;
+  transform: translateX(60%);
+  opacity: 0;
+
+  transition: all .6s;
+}
+
+header ul li:hover ul {
+  opacity: 1;
+  transform: translateX(0%);
+}
+
+header ul li a{
+    display: block;
+    padding:20px 20px;
+    color: white;
+    text-decoration: none;
+    /*eliminamos el subrayado*/
+
+
+}
+
+h1 {
+  font-size: 2em;
+  /**/
+}
+
+/* {
+  margin:0;
+  padding:0;
+  margen interno que tienen los elementos*/
+}
